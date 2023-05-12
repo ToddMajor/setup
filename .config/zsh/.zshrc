@@ -1,4 +1,4 @@
-! .bin/sh
+#! /bin/sh
 
 # just type directory to move to it
 setopt autocd 
