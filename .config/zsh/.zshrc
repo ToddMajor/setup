@@ -9,9 +9,6 @@ setopt menu_complete
 # comments are ignored in shell scripts in terminal. I believe this is one during scripts.
 setopt interactive_comments
 
-# stop silly ctrl+s from freezing terminal
-stty stop undef
-
 # when copy mpasting, do not have annoying highlight
 zle_highlight=('paste:none')
 
